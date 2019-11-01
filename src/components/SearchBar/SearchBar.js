@@ -6,7 +6,7 @@ export class SearchBar extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            'searchTerm':'',
+            'term':'',
             'location':'',
             'sortBy':'best_match',
         }
@@ -43,7 +43,7 @@ export class SearchBar extends React.Component{
     }
 
     handle_termChange(e){
-        this.setState({'searchTerm':e.target.value})
+        this.setState({'term':e.target.value})
     }
 
     handle_locationChange(e){
@@ -51,18 +51,14 @@ export class SearchBar extends React.Component{
     }
 
     handle_submitSearch(e){
-        console.log(this.state)
-        this.searchYelp()
+        const [term, location, sortBy] = [this.state.term, this.state.location, this.state.sortBy]
+        this.props.searchYelp(term, location, sortBy)
         e.preventDefault()
-    }
-
-    searchYelp(state){
-        const x = 0;
     }
 
     render(){
         return (
-            <div searchYelp={this.searchYelp} className="SearchBar">
+            <div className="SearchBar">
                 <div className="SearchBar-sort-options">
                     <ul>
                         {this.render_sortBy_options()}
