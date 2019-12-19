@@ -1,0 +1,16 @@
+{
+    "title":"Delish - Yelp API Restaurant Search",
+    "description":"Based on 'Ravenous', a Codecademy practice project that accesses Yelp's search API to find restaurants based on locale.",
+    "tags":{
+       "languages":[
+          "javascript"
+       ],
+       "tooling":[
+          "react"
+       ],
+       "keywords":[
+         "component-based", "ui design", "yelp api"
+       ]
+    },
+    "n_images":2
+ }
