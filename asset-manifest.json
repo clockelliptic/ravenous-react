@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-delish/static/css/main.78aefb2d.chunk.css",
+    "main.js": "/react-delish/static/js/main.ceb8f12e.chunk.js",
+    "main.js.map": "/react-delish/static/js/main.ceb8f12e.chunk.js.map",
+    "runtime-main.js": "/react-delish/static/js/runtime-main.e71040f7.js",
+    "runtime-main.js.map": "/react-delish/static/js/runtime-main.e71040f7.js.map",
+    "static/js/2.b50583d7.chunk.js": "/react-delish/static/js/2.b50583d7.chunk.js",
+    "static/js/2.b50583d7.chunk.js.map": "/react-delish/static/js/2.b50583d7.chunk.js.map",
+    "index.html": "/react-delish/index.html",
+    "precache-manifest.129151f74e8e02b3549d18d516ee3575.js": "/react-delish/precache-manifest.129151f74e8e02b3549d18d516ee3575.js",
+    "service-worker.js": "/react-delish/service-worker.js",
+    "static/css/main.78aefb2d.chunk.css.map": "/react-delish/static/css/main.78aefb2d.chunk.css.map",
+    "static/js/2.b50583d7.chunk.js.LICENSE.txt": "/react-delish/static/js/2.b50583d7.chunk.js.LICENSE.txt",
+    "static/media/SearchBar.css": "/react-delish/static/media/background_search_mobile.da9c3d72.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e71040f7.js",
+    "static/js/2.b50583d7.chunk.js",
+    "static/css/main.78aefb2d.chunk.css",
+    "static/js/main.ceb8f12e.chunk.js"
+  ]
+}
