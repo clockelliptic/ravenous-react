@@ -1,3 +1,9 @@
+Yelp API Search - React Component
+
+![Yelp API Search](https://github.com/clockelliptic/ravenous-react/blob/master/demovid.gif)
+
+
+----------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
